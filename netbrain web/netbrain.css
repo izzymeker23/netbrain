@@ -1,0 +1,335 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.list{
+    display: flex;
+    background: rgb(43, 11, 131);
+    height: 10vh;
+    
+    
+    
+ 
+    
+}
+.logo{
+    color: lightblue;
+    background: white;
+    border-right-style: ridge;
+
+}
+.logo img {
+    width: 200px;
+    height: 10vh;
+}
+.list-items{
+    margin-top: 4px;
+    margin-left: 70px;
+    margin-top: 20px;
+    
+}
+.list-items a{
+padding: 0 10px;
+text-decoration: none;
+font-weight: 500;
+color: white;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 12px;
+}
+.list-items a:hover{
+    color: lightblue;
+}
+
+.main{
+    width: 100%;
+    height: 70vh;
+    background: url(image/codes.jpg), rgba(0, 0, 0, 0.527) ;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+  
+}
+.srch {
+    margin-left: 300px;
+    margin-top: -33px;
+    align-items: center;
+}
+.srch input{
+    width: 400px;
+    height: 50px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 50px;
+    border-right: none;
+    border: none;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.692);
+text-align: center;
+
+}
+
+.srch button{
+    border: none;
+    width: 130px;
+    height: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border: none;
+    background: rgb(102, 191, 221);
+    color: rgb(11, 184, 228);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.589);
+    font-weight: 550;
+    font-size: 17px;
+    background-color: rgb(5, 5, 5);
+}
+.srch table tr,th {
+    color: rgb(0, 0, 0);
+    border-left: 0.5px solid rgba(128, 128, 128, 0.479);
+}
+
+.srch table {
+    width: 710px;
+}
+.img-slider{
+    position: absolute;
+
+    width: 80%;
+    height: 350px;
+margin-left: 100px;
+margin-top: 60px;
+ 
+    overflow: hidden;
+
+}
+.img-slider figure {
+    position: relative;
+    width: 500%;
+    left: 0;
+    margin: 0;
+    animation: 10s img-slider infinite;
+}
+.img-slider figure img {
+    width: 25%;
+    float: left;
+}
+@keyframes img-slider {
+    0% {
+        left: 0;
+    }
+    25% {
+        left: 0;
+    }
+    30%{
+        left: -125%;
+    }
+    40%{
+        left: -125%;
+    }
+    50% {
+        left: -250%;
+    }
+    70% {
+        left: -250%;
+    }
+    90% {
+        left: -250%;
+    }
+    100% {
+        left: 0%;
+    }
+}
+.table{
+    margin-top: 20px;
+}
+.table table{
+    border-radius: 10px;
+    width: 90%;
+    margin-left: -300px;
+}
+.table table tr,td{
+    color: rgb(79, 79, 243);
+    font-weight: 800;
+    margin-left: 30px;
+    border-top: 2px solid rgba(128, 128, 128, 0.555);
+    border-left: 0.5px solid rgba(128, 128, 128, 0.397);
+}
+table{
+    border-top: 0.5px solid rgba(128, 128, 128, 0.445);
+    height: 80px;
+    border-left: 0.5px solid rgba(128, 128, 128, 0.507);
+    border-right: 0.5px solid rgba(128, 128, 128, 0.493);
+    border-bottom: 0.5px solid rgba(128, 128, 128, 0.479);
+
+}
+.about {
+    display: flex;
+    margin-left: 100px;
+    margin-top: 100px;
+    font-family: Verdana;
+    
+
+}
+.about h2{
+    color: rgb(46, 195, 245);
+}
+.about h2 span{
+    color: darkblue;
+}
+.about p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 10px;
+    transition: 2s ease;
+}
+.about-content{
+    width: 400px;
+}
+.about-img img{
+    width: 550px;
+    height: 250px;
+    border-radius: 10px;
+    margin-left: 40px;
+    
+}
+.profile {
+    height: 170px;
+    width: 100%;
+    background: rgb(93, 164, 245);
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+.profile h2{
+    text-align: center;
+    color: darkblue;
+    font-size: 40px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+.profile h2 span{
+    display: block;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+}
+.our-service {
+    margin-top: 60px;
+    display: flex;
+}
+.our-service-image {
+    width: 700px;
+    height: 40vh;
+    /* background: rgb(177, 177, 177); */
+}
+
+
+
+.images {
+    margin-left: 100px;
+    
+}
+.images img{
+    justify-content: space-between;
+    width: 220px;
+    height: 130px;
+}
+.service-content {
+    width: 440px;
+    text-align: right;
+    margin-left: 70px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.service-content h2{
+    color: rgb(31, 186, 238);
+ 
+}
+.service-content    span {
+    color: black;
+}
+.pratical {
+    margin-top: 100px;
+    margin-left: 90px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.pratical h2{
+    color: rgb(56, 195, 241);
+    font-size: 35px;
+}
+.pratical p{
+    margin-top: 20px;
+}
+.pratical h2 span{
+    color: black;
+}
+.pratical-content {
+    width: 800px;
+}
+.pratical-img{
+    margin-top: 50px;
+    width: 100px;
+}
+.pratical-img img{
+    width: 900px;
+}
+.card p{
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.card{
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.card ul{
+    list-style:none;
+    margin-left: 25px;
+    font-size: 17px;
+    margin-top: 40px;
+    justify-content: space-around;
+    
+}
+.card ul li{
+    padding: 10px 0;
+}
+.card1 {
+    background: rgb(11, 125, 145);
+    width: 250px;
+    border-radius: 10px;
+    height: 350px;
+    box-shadow: 0px 0px 15px white;
+ 
+
+}
+.card2 {
+    background: rgb(11, 125, 145);
+    width: 250px;
+    border-radius: 10px;
+    height: 350px;
+    box-shadow: 0px 0px 15px white;
+}
+.card3 {
+    background: rgb(11, 125, 145);
+    width: 250px;
+    border-radius: 10px;
+    height: 350px;
+    box-shadow: 0px 0px 15px white;
+}
+.footer{
+    background: rgb(12, 167, 240);
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.visa {
+  
+    text-align: center;
+}
+.visa img{
+    margin-top: 20px;
+    width: 100px;
+}
+
